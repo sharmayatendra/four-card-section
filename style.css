@@ -54,8 +54,7 @@ body {
 .supervisor__para {
     padding: 1.2em;
     margin-top: -40px;
-    font-size
-    : 15px;
+    font-size: 15px;
 }
 
 .supervisor__image {
@@ -164,27 +163,14 @@ body {
 .container__center {
     display: inline-flex;
     flex-direction: column;
-    
-    
-
 }
 
 .container__left {
     display: inline-flex;
-    flex-direction: column;  
-    
+    flex-direction: column;
 }
 .container__right {
     display: inline-flex;
     flex-direction: column;
 }
 
-@media screen and (max-device-width: 375px) {
-    .bigcontainer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-   
-}
