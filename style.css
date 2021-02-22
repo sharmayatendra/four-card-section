@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+:root {
+    /* primary color */
+    --red: hsl(0,78%,62%);
+    --cyan: hsl(180,62%,55%);
+    --orange: hsl(34,97%,64%);
+    --blue: hsl(212,86%,64%);
+    /* neutral color */
+    --very-dark-blue: hsl(234,12%,34%);
+    --grayish-blue: hsl(229,6%,66%);
+    --very-light-gray: hsl(0,0%,98);
+}
+
+body {
+    background-color: var(--very-light-gray);
+    font-family: 'Poppins', sans-serif;
+}
+.grayish-blue-font {
+    color: var(--grayish-blue);
+}
+.container {
+    margin-top: 4em;
+    text-align: center;
+    width: 480px;
+    display: block;
+    margin: auto;
+    
+}
+.container__para {
+    font-weight: 200;
+    font-size: 1.9rem;
+    color: var(--very-dark-blue);
+}
+
+.container__heading {
+    margin-top: -20px;
+}
+/* supervisor*/
+
+.supervisor {
+    background-color: var(--very-light-gray);
+    border-radius: 0.5em;
+    border-top: 5px solid var(--cyan);
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.supervisor__heading {
+    
+    padding: 0.8em;
+}
+
+.supervisor__para {
+    padding: 1.2em;
+    margin-top: -40px;
+    font-size
+    : 15px;
+}
+
+.supervisor__image {
+    display: block;
+    padding: 1rem;
+    position: relative;
+    left: 230px;
+}
+
+/* teambuilder*/
+
+.teambuilder {
+    background-color: var(--very-light-gray);
+    border-radius: 0.5em;
+    border-top: 5px solid var(--red);
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.teambuilder__heading {
+    
+    padding: 0.8em;
+}
+
+.teambuilder__para {
+    padding: 1.2em;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.teambuilder__image {
+    display: block;
+    padding: 1rem;
+    position: relative;
+    left: 230px;
+}
+
+/* karma */
+
+.karma {
+    background-color: var(--very-light-gray);
+    border-radius: 0.5em;
+    border-top: 5px solid var(--orange);
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    
+}
+
+.karma__heading {
+    
+    padding: 0.8em;
+}
+
+.karma__para {
+    padding: 1.2em;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.karma__image {
+    display: block;
+    padding: 1rem;
+    position: relative;
+    left: 230px;
+}
+
+/* calculator */
+
+.calculator {
+    background-color: var(--very-light-gray);
+    border-radius: 0.5em;
+    border-top: 5px solid var(--blue);
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.calculator__heading {
+    
+    padding: 0.8em;
+}
+
+.calculator__para {
+    padding: 1.2em;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.calculator__image {
+    display: block;
+    padding: 1rem;
+    position: relative;
+    left: 230px;
+}
+
+
+.bigcontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__center {
+    display: inline-flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.container__left {
+    display: inline-flex;
+    flex-direction: column;  
+    
+}
+.container__right {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+    .bigcontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+}
