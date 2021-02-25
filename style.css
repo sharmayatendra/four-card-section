@@ -44,6 +44,7 @@ body {
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
+    color: var(--very-dark-blue);
 }
 
 .supervisor__heading {
@@ -73,6 +74,7 @@ body {
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
+    color: var(--very-dark-blue);
 }
 
 .teambuilder__heading {
@@ -102,7 +104,7 @@ body {
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
-    
+    color: var(--very-dark-blue);
 }
 
 .karma__heading {
@@ -132,6 +134,7 @@ body {
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
+    color: var(--very-dark-blue);
 }
 
 .calculator__heading {
